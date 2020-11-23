@@ -5,7 +5,7 @@ const cors = require("cors");
 const app = express();
 
 const config = require('./config');
-const api = require('./api');
+const api = require('./API');
 
 app.use(express.static("public"));
 app.use(cors());
